@@ -138,18 +138,6 @@ namespace homework5
                     {
                         totalPrice += goods1.count * goods1.price;
                     }
-                    //OrderDetail info = new OrderDetail(InfoList.list[i].orderDetail.goods);
-                    //Order order = new Order(InfoList.list[i].ID, InfoList.list[i].customer, info);
-                    //InfoList.list.Remove(InfoList.list[i]);
-                    //foreach (Order x in InfoList.list)
-                    //{
-                    //    if (info.Equals(x))
-                    //    {
-                    //        Console.WriteLine("信息重复，请重新填写");
-                    //        return false;
-                    //    }
-                    //}
-                    //InfoList.list.Add(order);
                     return true;
                 }
                 else { Console.WriteLine("无该搜索项"); return false; }
